@@ -38,7 +38,6 @@ const product = async () => {
     try{
     const response =  await fetch('http://makeup-api.herokuapp.com/api/v1/products.json',{mode: 'cors'});
     const responsejson = await response.json();
-    console.log(responsejson);
     homebutton.addEventListener('click',() =>{
         parendiv.innerHTML="";
         responsejson.forEach((product) => {
