@@ -1,0 +1,62 @@
+.titleclass{
+    text-align: center;
+    width: 100%;
+    background-color: #e7e7f5;
+    position: relative;
+    flex-wrap: wrap;
+    font-family: monospace;
+    border-radius: 80px;
+}
+
+.searchdivclass{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textboxclass{
+    position: relative;
+    background-color: #e8f4ff;
+    margin: 12px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.searchbuttonclass{
+    position: relative;
+    background-color: #e8f4ff;
+    margin: 12px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.divclass {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    row-gap: 30px;
+    column-gap: 30px;
+    position: relative;
+}   
+
+.child {
+    height: 400px;
+    width: 400x;
+    border: 2px solid black;
+    overflow: auto;
+    border-style: double;
+}
+
+.labelclass {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;   
+    color: whitesmoke;
+}
+
+.imgclass{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
