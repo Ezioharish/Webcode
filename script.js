@@ -74,6 +74,9 @@ const product = async () => {
     search.addEventListener('click',e =>{
         parendiv.innerHTML="";
         const value = document.getElementById('Searchbox').value;
+        if(value === ""){
+            return alert("Enter a Value");
+        }
         responsejson.forEach(ele => {
             
                 try{
